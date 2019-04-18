@@ -6,16 +6,16 @@ def assign_variable(value)
   value
 end
 
-def argue(phrase = "I'm right and you are wrong!")
+def argue(phrase)
   phrase
 end
 
-def greeting
-
+def greeting(greeting, name)
+  "#{greeting}, #{name}!"
 end
 
-def return_a_value
-
+def return_a_value(phrase)
+  return phrase
 end
 
 def last_evaluated_value
